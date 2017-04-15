@@ -8,11 +8,10 @@
 
     <ImageView
         android:id="@+id/drone_image"
+        style="@style/image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_margin="10dp"
-        android:adjustViewBounds="true"
+        android:contentDescription="@string/imageContnentDescription"
         android:src="@drawable/mydrone2" />
 
     <LinearLayout
@@ -22,165 +21,109 @@
         android:orientation="vertical">
 
         <TextView
+            style="@style/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:layout_weight="1"
-            android:fontFamily="sans-serif-smallcaps"
-            android:text="Video Capturing with Drones"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="24sp" />
+            android:text="@string/title" />
 
         <TextView
+            style="@style/subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_weight="1"
-            android:fontFamily="sans-serif"
-            android:text="We will capture every exciting moment of your life, like your wedding or sports and many more in HD Resolution !"
-            android:textAlignment="center"
-            android:textColor="#424242"
-            android:textSize="14sp" />
+            android:text="@string/subtitle" />
 
         <LinearLayout
+            style="@style/infoViewGroup"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content">
 
             <TextView
+                style="@style/informationName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:fontFamily="sans-serif"
-                android:text="Phone:"
-                android:textColor="#000000"
-                android:textSize="14sp" />
+                android:text="@string/phone" />
 
             <TextView
+                style="@style/informationText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:fontFamily="sans-serif"
-                android:text="0030 6939360882"
-                android:textAlignment="textEnd"
-                android:textColor="#424242"
-                android:textSize="14sp" />
+                android:text="@string/phoneText" />
 
         </LinearLayout>
 
         <LinearLayout
+            style="@style/infoViewGroup"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content">
 
             <TextView
+                style="@style/informationName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:fontFamily="sans-serif"
-                android:text="Email adress:"
-                android:textColor="#000000"
-                android:textSize="14sp" />
+                android:text="@string/email" />
 
             <TextView
+                style="@style/informationText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:fontFamily="sans-serif"
-                android:text="menelaoszetas@gmail.com"
-                android:textAlignment="textEnd"
-                android:textColor="#424242"
-                android:textSize="14sp" />
+                android:text="@string/emailText" />
 
         </LinearLayout>
 
         <LinearLayout
+            style="@style/infoViewGroup"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content">
 
             <TextView
+                style="@style/informationName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:fontFamily="sans-serif"
-                android:text="Website:"
-                android:textColor="#000000"
-                android:textSize="14sp" />
+                android:text="@string/website" />
 
             <TextView
+                style="@style/informationText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:fontFamily="sans-serif"
-                android:text="www.droneCapturing.com"
-                android:textAlignment="textEnd"
-                android:textColor="#424242"
-                android:textSize="14sp" />
+                android:text="@string/websiteText" />
 
         </LinearLayout>
 
         <LinearLayout
+            style="@style/infoViewGroup"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content">
 
             <TextView
+                style="@style/informationName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:fontFamily="sans-serif"
-                android:text="Adress:"
-                android:textColor="#000000"
-                android:textSize="14sp" />
+                android:text="@string/adress" />
 
             <TextView
+                style="@style/informationText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:fontFamily="sans-serif"
-                android:text="Miaouli 12 Rafina, Attiki, Greece"
-                android:textAlignment="textEnd"
-                android:textColor="#424242"
-                android:textSize="14sp" />
+                android:text="@string/adressText" />
 
         </LinearLayout>
 
         <LinearLayout
+            style="@style/infoViewGroup"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content">
 
             <TextView
+                style="@style/informationName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:fontFamily="sans-serif"
-                android:text="Available:"
-                android:textColor="#000000"
-                android:textSize="14sp" />
+                android:text="@string/availability" />
 
             <TextView
+                style="@style/informationText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:fontFamily="sans-serif"
-                android:text="9:00 to 18:00 everyday"
-                android:textAlignment="textEnd"
-                android:textColor="#424242"
-                android:textSize="14sp" />
+                android:text="@string/availabilityText" />
 
         </LinearLayout>
 

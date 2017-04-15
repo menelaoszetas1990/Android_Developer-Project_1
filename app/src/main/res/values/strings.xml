@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">DroneCamp - Project 1</string>
+
+    <!-- Image content description -->
+    <string name="imageContnentDescription">Drone Image</string>
+
+    <!-- Title text -->
+    <string name="title">Video Capturing With Drones</string>
+
+    <!-- Subtitle text -->
+    <string name="subtitle">We will capture every exciting moment of your life, like your wedding or sports and many more in HD Resolution !</string>
+
+    <!-- Information name texts -->
+    <string name="phone">Phone:</string>
+    <string name="email">Email address:</string>
+    <string name="website">Website:</string>
+    <string name="adress">Address:</string>
+    <string name="availability">Hours Available:</string>
+
+    <!-- Information texts -->
+    <string name="phoneText">0030 6939360882</string>
+    <string name="emailText">menelaoszetas@gmail.com</string>
+    <string name="websiteText">www.droneCapturing.com</string>
+    <string name="adressText">Miaouli 12 Rafina, Attiki, Greece</string>
+    <string name="availabilityText">9:00 to 18:00 everyday</string>
+
 </resources>
