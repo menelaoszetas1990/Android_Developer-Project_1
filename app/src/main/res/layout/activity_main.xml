@@ -32,12 +32,13 @@
             android:layout_height="wrap_content"
             android:text="@string/subtitle" />
 
-        <LinearLayout
+        <RelativeLayout
             style="@style/infoViewGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/infoNamePhone"
                 style="@style/informationName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -45,18 +46,22 @@
 
             <TextView
                 style="@style/informationText"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/infoNamePhone"
+                android:layout_alignParentEnd="true"
+                android:onClick="callPhone"
                 android:text="@string/phoneText" />
 
-        </LinearLayout>
+        </RelativeLayout>
 
-        <LinearLayout
+        <RelativeLayout
             style="@style/infoViewGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/infoEmailAdress"
                 style="@style/informationName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -64,49 +69,59 @@
 
             <TextView
                 style="@style/informationText"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/infoEmailAdress"
+                android:layout_alignParentEnd="true"
+                android:onClick="sendMail"
                 android:text="@string/emailText" />
 
-        </LinearLayout>
+        </RelativeLayout>
 
-        <LinearLayout
+        <RelativeLayout
             style="@style/infoViewGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <TextView
                 style="@style/informationName"
+                android:id="@+id/infoWebsite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/website" />
 
             <TextView
                 style="@style/informationText"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/infoWebsite"
+                android:onClick="webPage"
+                android:layout_alignParentEnd="true"
                 android:text="@string/websiteText" />
 
-        </LinearLayout>
+        </RelativeLayout>
 
-        <LinearLayout
+        <RelativeLayout
             style="@style/infoViewGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <TextView
                 style="@style/informationName"
+                android:id="@+id/infoAdress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/adress" />
 
             <TextView
                 style="@style/informationText"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/infoAdress"
+                android:layout_alignParentEnd="true"
                 android:text="@string/adressText" />
 
-        </LinearLayout>
+        </RelativeLayout>
 
         <LinearLayout
             style="@style/infoViewGroup"

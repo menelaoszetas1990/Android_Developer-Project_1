@@ -18,10 +18,14 @@
     <string name="availability">Hours Available:</string>
 
     <!-- Information texts -->
-    <string name="phoneText">0030 6939360882</string>
-    <string name="emailText">menelaoszetas@gmail.com</string>
+    <string name="phoneText">+306939360882</string>
+    <string name="emailText">menelaoszetas1990@gmail.com</string>
     <string name="websiteText">www.droneCapturing.com</string>
     <string name="adressText">Miaouli 12 Rafina, Attiki, Greece</string>
     <string name="availabilityText">9:00 to 18:00 everyday</string>
 
+    <!-- Extra action strings -->
+    <string name="emailSubjectText">Requesting info</string>
+    <!-- Website URL -->
+    <string name="websiteHttp">https://web.facebook.com/menelaos.zetas</string>
 </resources>
