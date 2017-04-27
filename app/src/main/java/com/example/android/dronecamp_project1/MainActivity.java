@@ -40,4 +40,12 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+   /* public void mapPlace(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(getString(R.string.geo));
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
+    }*/
+
 }

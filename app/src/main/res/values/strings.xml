@@ -28,4 +28,6 @@
     <string name="emailSubjectText">Requesting info</string>
     <!-- Website URL -->
     <string name="websiteHttp">https://web.facebook.com/menelaos.zetas</string>
+    <!-- Geo location -->
+    <string name="geo">geo:37.954448,23.698402</string>
 </resources>
