@@ -3,4 +3,17 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- Text color for title -->
+    <item name="title" type="color">#000000</item>
+
+    <!-- Text color for subtitle -->
+    <item name="subtitle" type="color">#424242</item>
+
+    <!-- Text color for information name -->
+    <item name="infoName" type="color">#212121</item>
+
+    <!-- Text color for information text -->
+    <item name="infoText" type="color">#616161</item>
+
 </resources>

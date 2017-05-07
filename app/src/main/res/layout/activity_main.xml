@@ -84,8 +84,8 @@
             android:layout_height="wrap_content">
 
             <TextView
-                style="@style/informationName"
                 android:id="@+id/infoWebsite"
+                style="@style/informationName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/website" />
@@ -95,8 +95,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignEnd="@id/infoWebsite"
-                android:onClick="webPage"
                 android:layout_alignParentEnd="true"
+                android:onClick="webPage"
                 android:text="@string/websiteText" />
 
         </RelativeLayout>
@@ -107,8 +107,8 @@
             android:layout_height="wrap_content">
 
             <TextView
-                style="@style/informationName"
                 android:id="@+id/infoAdress"
+                style="@style/informationName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/adress" />
@@ -123,7 +123,7 @@
 
         </RelativeLayout>
 
-        <LinearLayout
+        <RelativeLayout
             style="@style/infoViewGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -140,7 +140,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/availabilityText" />
 
-        </LinearLayout>
+        </RelativeLayout>
 
     </LinearLayout>
 
